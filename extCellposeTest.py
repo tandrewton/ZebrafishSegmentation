@@ -178,6 +178,8 @@ class Cellpose(cellpose.models.Cellpose):
 class CellposeModel(cellpose.models.CellposeModel): 
     # override/add any functions here.
 
+    def __init__
+
     # normally would be in models.py in CellposeModel class
     def eval_test(self, x, batch_size=8, channels=None, channel_axis=None, 
                 z_axis=None, normalize=True, invert=False, 
